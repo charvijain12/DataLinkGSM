@@ -19,4 +19,5 @@ The UDCM module must meet the following requirements:
 The UDCM module takes data from a PC, modulates it and transfers the modulated data to the mobile phone at the transmitter end. At the receiver end, the process is reversed, and the modulated data is demodulated, allowing the data to be retrieved from the mobile phone.
 
 <h3 align="center">Conclusion</h3>
+
 The UDCM module is a standalone module that allows low bit rate data communication over the GSM voice channel. The module has been developed to provide reliable, error-free, full-duplex data communication using appropriate FEC and modulation techniques. It can be used seamlessly on any mobile phone brand and should not use data compression techniques.
