@@ -1,7 +1,7 @@
 #                Data-over-GSM-voice-channel
 DRDO Project to achieve end to end data communication over mobile voice channel.
 
-I collaborated with a team to offer assistance with MATLAB programming related to GSM_TX.
+I collaborated with a team to offer assistance with MATLAB programming and simulation related to GSM_TX.
 #
 <h3 align="center">Introduction</h3>
 The Universal Data Communication Module (UDCM) is a module that enables end-to-end data communication over the GSM voice channel. The module is designed to transmit low bit rate data communication when a data channel is not available. UDCM can be interfaced with any mobile phone’s voice port and use the audio path of the mobile phone to send the data. The UDCM module has been developed to provide reliable, error-free, full-duplex data communication over the GSM voice channel.
