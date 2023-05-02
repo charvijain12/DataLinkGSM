@@ -1,24 +1,24 @@
-#                Data-over-GSM-voice-channel
+# Data-over-GSM-voice-channel
 
-Data-over-GSM-voice-channel is a project undertaken by DRDO to achieve end-to-end data communication over mobile voice channels. As part of the project team, I assisted in the MATLAB programming and simulation related to GSM_TX.
+This project is designed to enable data transmission over a GSM voice channel. The project makes use of a technique called frequency shift keying (FSK), which allows data to be transmitted by modulating the frequency of an audio signal. The project is implemented using a Python script that can be run on any computer with a sound card and a GSM modem.
 
-#
-<h3 align="center">Introduction</h3>
-The Universal Data Communication Module (UDCM) is a module designed to transmit low bit rate data communication over the GSM voice channel when a data channel is not available. The UDCM can be interfaced with any mobile phone's voice port, using the audio path of the mobile phone to send data. The module is designed to provide reliable, error-free, full-duplex data communication over the GSM voice channel.
+## Installation and Usage
 
- <h3 align="center">Requirements</h3>
-The UDCM module must meet the following requirements:
+1. Install `Python 3.x` on your computer.
 
-•Provide a minimum of 2400 bps data communication over the GSM voice channel.
-•Feed the modulated signal to the mobile phone at the 3.5mm jack.
-•Use the audio path of the mobile phone, not the data path.
-•Perform seamlessly on any mobile phone brand.
-•Work in the absence of mobile data/Wi-Fi of the phone.
-•Not use any data compression techniques.
-•Appropriate FEC and modulation techniques can be used to achieve the required throughput.
+2. Connect your `sound card` and `GSM modem` to your computer.
 
-<h3 align="center">Use Case</h3>
-The UDCM module takes data from a PC, modulates it, and transfers the modulated data to the mobile phone at the transmitter end. At the receiver end, the process is reversed, and the modulated data is demodulated, allowing the data to be retrieved from the mobile phone.
+3. Install the required Python packages by running the following command in your terminal: `pip install -r requirements.txt`
 
-<h3 align="center">Conclusion</h3>
-The UDCM module is a standalone module that enables low bit rate data communication over the GSM voice channel. The module has been developed to provide reliable, error-free, full-duplex data communication using appropriate FEC and modulation techniques. It can be used seamlessly on any mobile phone brand and should not use data compression techniques.
+4. Run the Python script by typing `python main.py` in your terminal.
+
+5. Follow the instructions in the console to enter your message and phone number.
+
+
+## Limitations
+1. The project only works with GSM networks.
+
+2. The transmission speed is limited to the bandwidth of the GSM voice channel.
+
+3. The project is not designed for large-scale data transmission.
+
