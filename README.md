@@ -1,6 +1,6 @@
-# Data-over-GSM-voice-channel
+# DataLinkGSM: Data Transmission Over GSM Voice Channel
 
-This project is designed to enable data transmission over a GSM voice channel. The project makes use of a technique called frequency shift keying (FSK), which allows data to be transmitted by modulating the frequency of an audio signal. The project is implemented using a Python script that can be run on any computer with a sound card and a GSM modem.
+DataLinkGSM project is designed to enable data transmission over a GSM voice channel. The project makes use of a technique called frequency shift keying (FSK), which allows data to be transmitted by modulating the frequency of an audio signal. The project is implemented using a Python script that can be run on any computer with a sound card and a GSM modem.
 
 ## Installation and Usage
 
@@ -16,9 +16,9 @@ This project is designed to enable data transmission over a GSM voice channel. T
 
 
 ## Limitations
-1. The project only works with GSM networks.
+1. DataLinkGSM only works with GSM networks.
 
 2. The transmission speed is limited to the bandwidth of the GSM voice channel.
 
-3. The project is not designed for large-scale data transmission.
+3. DataLinkGSM is not designed for large-scale data transmission.
 
